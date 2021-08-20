@@ -45,6 +45,7 @@ function validacao() {
     document.getElementById('error').style.display = 'none';
     
     // O CPF digitado vai ser capturado através do JavaScript dentro do HTML e vai ser armazenado na variável abaixo.
+
     var cpf = document.getElementById('cpf_digitado').value;
     
     var resultadovalidacao = validaCPF(cpf);
